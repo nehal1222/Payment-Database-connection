@@ -1,0 +1,127 @@
+*{
+
+
+}
+
+.vission{
+               text-align: center;
+               transition: 0.8s;
+               padding: 10px 10px;
+               font-size: 20px;
+}
+.cont{
+               font-size: 15px;
+}
+.main{
+               text-align: center;
+               background-color: #B3C8CF; 
+               margin-top: 30px;
+               margin-bottom: 30px;
+
+               padding: 20px;
+               text-align: left;
+}
+
+
+
+
+.footer{
+               border: #3929a3;
+               box-sizing: border-box;
+               box-shadow: #cc2386;
+               text-align: center;
+}
+.block {
+               display: flex;
+               justify-content: center;
+
+}
+
+.row, .row2,.row3, .row4, .row5{
+               background-color: rgb(98, 152, 153);
+               box-sizing: border-box;
+               width: 140px;
+               height: 140px;
+               margin: 50px;
+               border-width: 3px;
+               border-color: black;
+               border-style: solid;
+               text-align: center;
+               font-size: 20px;
+               align-items: center;
+               justify-content: center;
+               border-radius: 3px;
+
+} 
+.set {
+               justify-content: center; /* Center the child elements horizontally */
+               display: flex; /* Use flexbox layout */
+               border: black; /* Border color */
+               border-radius: 30px; /* Rounded corners */
+        }
+        .letters {
+            display: inline;
+            padding: 0;
+            /* list-style-type: none; */
+        }
+        
+        .letters li {
+            display: inline;
+            margin-right: 5px;
+        }
+        
+        .letters li a {
+            padding: 5px 10px;
+            border-radius: 30px;
+            border-width: 5px;
+            border-color: black;
+            background-color: white;
+            color: black;
+            transition: 0.3s ease;
+        }
+        
+        .letters li a:hover {
+            background-color: #5b8c8e;
+            bo
+        }
+
+.buttss{
+            align-items: center;
+            text-align: center;
+}
+.button{
+               position: relative;
+               width: 100px;
+               height: 50px;
+               font-size: 15px;
+               background-color: goldenrod;
+               border: none;
+               border-radius: 13px;
+               cursor: pointer;
+               transition: width .5s;
+               border-radius: .7s;
+               padding:(20, 30, 30, 20);
+}
+
+.button *{
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+               transition: opacity .25s;
+}
+.icon{
+               opacity: 0;
+}
+.button:focus{
+               width: 50px;
+               background-color: blue;
+               border-radius: 50%;
+}
+.button:focus .text{
+               opacity: 0;
+}
+.button:focus .icon{
+               opacity: 1;
+               transition-delay: .5s;
+}

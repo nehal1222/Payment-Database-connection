@@ -1,0 +1,12 @@
+import urllib.request
+
+# URL to download haarcascade_frontalface_default.xml from OpenCV GitHub repository
+url = "https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml"
+
+# Path to save the downloaded XML file
+xml_path = "hh.xml"
+
+# Download the XML file
+urllib.request.urlretrieve(url, xml_path)
+
+print("haarcascade_frontalface_default.xml downloaded successfully!")
